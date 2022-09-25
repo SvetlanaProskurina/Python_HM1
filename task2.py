@@ -23,4 +23,4 @@ for i in r:
     Z_ = bool(int(XYZ[2]))
 
     if not (X_ or Y_ or Z_) == (not X_ and not Y_ and not Z_):
-        print('при X =',X_, ' и Y =',Y_, ' и Z =',Z_, 'выражение not (X_ or Y_ or Z_) == (not X_ and not Y_ and not Z_) истинно')
+        print('при X =',X_, ' и Y =',Y_, ' и Z =',Z_, 'выражение ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z истинно')
